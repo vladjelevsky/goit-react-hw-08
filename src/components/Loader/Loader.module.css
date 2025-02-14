@@ -1,0 +1,15 @@
+.loader {
+  position: fixed; /* Вириваємо з потоку */
+  top: 50%; /* Вирівнюємо по центру */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Центруємо */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw; /* Накриваємо всю сторінку */
+  height: 100vh;
+  background-color: #f6f4ef4d;
+  z-index: 50;
+}

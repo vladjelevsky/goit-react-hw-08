@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 10px;
+  width: 100%;
+
+  background: linear-gradient(145deg, #dce9f5, #f5f3ed);
+  border-radius: 0px 0px 16px 16px;
+  box-shadow: 6px 6px 12px rgba(34, 45, 65, 0.4),
+    -6px -6px 12px rgba(240, 248, 255, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 10px 20px;
+  }
+}

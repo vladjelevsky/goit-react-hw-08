@@ -1,0 +1,73 @@
+.contactList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.contactItem {
+  display: flex;
+  gap: 10px;
+  border-radius: 16px;
+  box-shadow: 6px 6px 12px rgba(34, 45, 65, 0.4),
+    -6px -6px 12px rgba(240, 248, 255, 0.2);
+  padding: 5px 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.message {
+  border-radius: 16px;
+  box-shadow: 6px 6px 12px rgba(34, 45, 65, 0.4),
+    -6px -6px 12px rgba(240, 248, 255, 0.2);
+  padding: 10px 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 32px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  color: #065096;
+}
+@media screen and (min-width: 375px) {
+  .contactItem {
+    width: 335px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contactList {
+    justify-content: start;
+  }
+  .contactItem {
+    width: 359px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .contactList {
+    max-width: 740px;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .contactItem {
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contactList {
+    width: 1400px;
+    justify-content: start;
+    margin: 0 auto;
+  }
+
+  .contactItem {
+    width: calc((100% - 30px) / 4);
+  }
+}

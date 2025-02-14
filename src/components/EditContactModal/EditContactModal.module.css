@@ -1,0 +1,82 @@
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 16px;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 6px 6px 12px rgba(34, 45, 65, 0.4),
+    -6px -6px 12px rgba(240, 248, 255, 0.2);
+}
+
+.fieldWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60px;
+}
+
+.contactIcon {
+  color: #065096;
+  width: 20px;
+  height: 20px;
+}
+
+.label {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+
+.field {
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 12px 8px 40px;
+  background-color: #f5f3ed;
+  cursor: pointer;
+  box-shadow: 6px 6px 12px rgba(34, 45, 65, 0.4),
+    -6px -6px 12px rgba(240, 248, 255, 0.2);
+
+  transition: all 300ms linear;
+}
+.field:hover,
+.field:focus {
+  background-color: #fff;
+  box-shadow: 6px 6px 12px rgba(34, 45, 65, 0.6),
+    -6px -6px 12px rgba(240, 248, 255, 0.3);
+  outline: none;
+}
+
+.error {
+  font-size: 12px;
+  align-self: baseline;
+  color: #bd0d33;
+}
+.btnPanel {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.btn {
+  width: 110px;
+  gap: 5px;
+}

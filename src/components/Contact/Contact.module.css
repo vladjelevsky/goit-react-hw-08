@@ -1,0 +1,47 @@
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+}
+
+.contactIcon {
+  width: 15px;
+  height: 15px;
+}
+
+.btnPanel {
+  display: flex;
+  gap: 5px;
+}
+
+.editBtn {
+  width: 40px;
+}
+
+.editIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.deleteBtn {
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 375px) {
+  .btnPanel {
+    gap: 10px;
+  }
+
+  .editBtn {
+    width: 50px;
+  }
+  .contactIcon {
+    width: 18px;
+    height: 18px;
+  }
+}
