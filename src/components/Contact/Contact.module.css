@@ -10,6 +10,7 @@
 }
 
 .contactIcon {
+  color: #065096;
   width: 15px;
   height: 15px;
 }
@@ -20,6 +21,7 @@
 }
 
 .editBtn {
+  color: #065096;
   width: 40px;
 }
 
@@ -28,8 +30,20 @@
   height: 20px;
 }
 
+.editBtn:hover {
+  background-color: #065096;
+}
+.editBtn:hover .editIcon {
+  color: #dce9f5;
+}
+
 .deleteBtn {
   flex-shrink: 0;
+}
+
+.deleteBtn:hover {
+  background-color: #065096;
+  color: #dce9f5;
 }
 
 @media screen and (min-width: 375px) {

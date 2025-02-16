@@ -21,6 +21,7 @@
   border-radius: 16px;
   width: 300px;
   overflow: hidden;
+  background: linear-gradient(145deg, #dce9f5, #f5f3ed);
   box-shadow: 6px 6px 12px rgba(34, 45, 65, 0.4),
     -6px -6px 12px rgba(240, 248, 255, 0.2);
 }
@@ -79,4 +80,9 @@
 .btn {
   width: 110px;
   gap: 5px;
+}
+
+.btn:hover {
+  background-color: #065096;
+  color: #dce9f5;
 }

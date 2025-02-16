@@ -9,6 +9,7 @@
 .contactItem {
   display: flex;
   gap: 10px;
+  background: linear-gradient(145deg, #dce9f5, #f5f3ed);
   border-radius: 16px;
   box-shadow: 6px 6px 12px rgba(34, 45, 65, 0.4),
     -6px -6px 12px rgba(240, 248, 255, 0.2);
@@ -19,6 +20,7 @@
 }
 
 .message {
+  background: linear-gradient(145deg, #dce9f5, #f5f3ed);
   border-radius: 16px;
   box-shadow: 6px 6px 12px rgba(34, 45, 65, 0.4),
     -6px -6px 12px rgba(240, 248, 255, 0.2);
